@@ -1,0 +1,32 @@
+- Docker: O Docker é uma plataforma de virtualização de contêineres que permite empacotar, distribuir e executar aplicativos e suas dependências de maneira isolada facilitando assim o desenvolvimento da aplicação.
+
+- Azure: Plataoforma de computação em nuvem da Microsoft utilizada para a hospedar a aplicação com os seguintes serviços: 
+	- Container Apps: PaaS (Plataforma como serviço) baseado em Kubernetes que permite a orquestração de contêineres facilitando assim a execução da aplicativos conteinerizados na Azure.
+	- Servidores flexíveis do Banco de Dados do Azure para MySQL:  Os Servidores flexíveis do Banco de Dados do Azure para MySQL são uma opção de implantação para o Banco de Dados do Azure para MySQL que fornece melhor controle e flexibilidade dos parâmetros do servidor de banco de dados, mais opções para a alta disponibilidade e controles de otimização de custo.
+
+- Git: Sistema de controle de versão distribuída facilitando o controle do versionamento do código fonte da aplicação. 
+- GitHub: Serviço de hospedagem em nuvem de repositórios Git e ambiente colaborativo entre a equipe de desenvolvimento.  
+
+=================================================================================================================================
+As tecnologias que usamos para construção do nosso projeto do TCC foram o JavaScript e PHP.
+	Escolhemos JavaScript, pois essa linguagem de programação desempenha um papel fundamental na melhoria da experiência do usuário em nossa aplicação. Com essa tecnologia podemos criar funções que serão acionadas após as requisições do usuário, facilitando a comunicação do front-end com o back-end, realizando requisições assíncronas, tornando assim nosso projeto mais dinâmico.
+	Já o PHP nos permite ter uma melhor conectividade com banco de dados, por isso nos serviu como uma "API", pois com ele temos melhor facilidade na manipulação de dados, com comandos SQL's.
+
+
+Tecnologias FrontEnd {
+	
+	HTML: Linguagem de marcação para criação de elementos web simples, como textos, imagens, áudios e etc...
+
+	Css: Tecnologia usada para definir a estilização de elementos web, como tamanho, cores e posicionamentos.
+
+	JavaScript: Linguagem de programação muito utilizada para o consumo das APIs, tratamentos de erros e tornar a página dinâmica e com uma boa experiência para o usuário.
+
+	Tailwind: Uma biblioteca de estilização CSS utilizada para agilizar a estilização das diferentes paginas web com classes.
+
+	Google-fonts: API do Google utilizada para importar fontes personalizadas. 
+
+	SweetAlert: API utilizada para criar Pop-ups personalizados na tela, como alertas, mensagens de erro, mensagens de sucesso e etc…
+
+}
+	
+

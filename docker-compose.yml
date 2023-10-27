@@ -1,0 +1,28 @@
+version: '3'
+services:
+
+    backend:
+        container_name: backend
+        build: 
+            context: .
+            dockerfile: dockerfileCode
+        ports:
+            - "8080:80"
+        volumes:
+            - ./:/var/www/html
+        security_opt:
+            - no-new-privileges:true
+        networks:
+            isi:
+                ipv4_address: 172.20.0.3
+        hostname: isihiveframe_mob_api
+
+networks:
+    isi_mob_api:
+        name: isi_mob_api
+        driver: bridge
+        ipam:
+            driver: default
+            config:
+                - subnet: 172.20.0.0/24
+                
